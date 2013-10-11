@@ -1,0 +1,48 @@
+gnome-clocks (3.10.0-0blankon1) suroboyo; urgency=low
+
+  * New upstream release
+  * debian/control.in:
+    - Bump build-deps according to configure.ac
+    - Add build-dep on yelp-tools
+
+ -- Rahman Yusri Aftian <aftian@di.blankon.in>  Fri, 11 Oct 2013 22:06:58 +0700
+
+gnome-clocks (3.8.2-1) experimental; urgency=low
+
+  [ Jeremy Bicha ]
+  * New upstream release
+  * debian/control.in:
+    - Drop alternate build-depends on valac-0.18 since it's no longer in
+      Debian and unnecessary
+
+  [ Andreas Henriksson ]
+  * Add missing Licence field to debian/copyright as required
+    by the spec for machine readable copyright file. Thanks lintian.
+  * Drop "Added runtime dependency to libgweather-common"
+    - libgweather-3-3 has been fixed to depend on newer libgweather-common
+
+ -- Andreas Henriksson <andreas@fatal.se>  Mon, 17 Jun 2013 23:06:05 +0200
+
+gnome-clocks (3.8.0-1) experimental; urgency=low
+
+  [ Jean Schurger ]
+  * New upstream version.
+  * Added runtime dependency to libgweather-common (the schema file is needed).
+  * Updated Standards-Version to 3.9.4.
+  * Updated Vcs-Svn.
+
+  [ Sjoerd Simons ]
+  * debian/copyright: Add libgd copyright
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sun, 07 Apr 2013 10:19:52 +0200
+
+gnome-clocks (3.7.92-1) experimental; urgency=low
+
+  [ Jeremy Bicha ]
+  * Initial release
+
+  [ Sjoerd Simons ]
+  * New upstream release (Update build-depends)
+  * debian/control: Use standard gnome-pkg-tools rules
+
+ -- Sjoerd Simons <sjoerd@debian.org>  Sun, 24 Mar 2013 16:17:14 +0100
